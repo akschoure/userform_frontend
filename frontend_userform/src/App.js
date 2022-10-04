@@ -10,7 +10,7 @@ function App() {
       <div className="container">
           <Router>
               <div className="col-md-6">
-                  <h1 className="text-center" style={style}>React User Application</h1>
+                  <h1 className="text-center" style={style}>User Application</h1>
                   <Switch>
                       <Route path="/" exact component={ListUserComponent} />
                       <Route path="/users" component={ListUserComponent} />
